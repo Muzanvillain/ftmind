@@ -1,0 +1,64 @@
+.certificate-container {
+    max-width: 800px; 
+    margin: 50px auto;
+    padding: 30px; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+    background: #fff; 
+    text-align: center; 
+  }
+  
+  .certificate-container h1 {
+    margin-bottom: 30px; 
+  }
+  
+  .certificate-form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .certificate-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .certificate-form label {
+    margin-bottom: 10px; 
+    font-weight: bold;
+  }
+  
+  .certificate-form input {
+    padding: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .certificate-form .btn {
+    padding: 15px;
+    background-color: #1eb2a6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .certificate-form .btn:hover {
+    background-color: #17a697;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 20px; 
+    font-size: 14px; 
+  }
+  
+  .success-message {
+    color: green;
+    margin-bottom: 20px; 
+    font-size: 14px; 
+  }
+  
